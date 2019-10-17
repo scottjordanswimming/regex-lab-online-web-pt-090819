@@ -34,11 +34,13 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(text)
 x = text[0]
 y = text[-1]
-z = x.scan(/[A-Z]/).join()
-a = y.scan(/[,.?!]/).join()
+z = x.scan(/[A-Z]/)
+a = y.scan(/[,.?!]/)
 
 binding.pry
-if z && if a
+
+if z != [] && a != []
+
 
 end
 
