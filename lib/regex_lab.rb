@@ -50,7 +50,7 @@ def valid_phone_number?(phone)
   #binding.pry
     y = phone.split(Regexp.union(a)).uniq
     z = y.join()
-    z.count == 10
+    z.length == 10
     
     
   
