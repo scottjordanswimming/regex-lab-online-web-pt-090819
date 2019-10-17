@@ -36,9 +36,9 @@ x = text[0]
 y = text[-1]
 z = x.scan(/[A-Z]/).join()
 a = y.scan(/[,.?!]/).join()
-z
+
 binding.pry
-#x == y 
+if z && a
 
 end
 
