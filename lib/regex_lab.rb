@@ -46,5 +46,10 @@ end
 
 def valid_phone_number?(phone)
   
+  a = [', ', ' ', ',']
+    x = phone.join(", ")
+    y = x.split(Regexp.union(a)).uniq
+    
+  
 
 end
