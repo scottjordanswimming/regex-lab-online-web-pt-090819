@@ -39,7 +39,7 @@ a = y.scan(/[,.?!]/)
 
 binding.pry
 
-if z != [] && a != []
+z != [] && a != []
 
 
 end
