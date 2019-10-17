@@ -35,6 +35,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 x = text[0]
 y = text[-1]
 z = x.scan(/[A..Z]/).join()
+z
 #x == y 
 
 end
