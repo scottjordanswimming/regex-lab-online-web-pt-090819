@@ -49,6 +49,7 @@ def valid_phone_number?(phone)
   a = [')', '(', ' ', '-']
   binding.pry
     y = phone.split(Regexp.union(a)).uniq
+    z = y.join()
     if y.join()
     
     
