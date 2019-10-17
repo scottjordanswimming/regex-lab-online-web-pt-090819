@@ -48,8 +48,7 @@ def valid_phone_number?(phone)
   
   a = [')', '(', ' ', '-']
   binding.pry
-    x = phone.join(", ")
-    y = x.split(Regexp.union(a)).uniq
+    y = phone.split(Regexp.union(a)).uniq
     
     
   
