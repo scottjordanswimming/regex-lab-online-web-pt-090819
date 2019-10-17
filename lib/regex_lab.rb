@@ -38,7 +38,7 @@ z = x.scan(/[A-Z]/).join()
 a = y.scan(/[,.?!]/).join()
 
 binding.pry
-z && a
+if z && if a
 
 end
 
