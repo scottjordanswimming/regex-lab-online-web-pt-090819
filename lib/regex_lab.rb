@@ -37,7 +37,7 @@ y = text[-1]
 z = x.scan(/[A-Z]/)
 a = y.scan(/[,.?!]/)
 
-binding.pry
+#binding.pry
 
 z != [] && a != []
 
